@@ -1,0 +1,44 @@
+<div class="container">
+    <h3 class="text-center font-weight-bold pt-3 pb-3 animate__animated animate__zoomIn">Dos & Don’ts Of Trekking – A
+        Guide!</h3>
+    <div class="row">
+
+
+        <div class="col-md-6 col-sm-12 col-12 mb-4">
+            <div class="text-center thirdBtn border p-2 mb-3 text-dark">
+                <h6 class="animate__animated animate__zoomIn">Do’s</h6>
+            </div>
+            <div id="accordion" class="accordion" *ngFor="let do of dos_Donts?.dos; let i = index">
+                <div class="card mb-0">
+                    <div class="card-header collapsed bg" data-toggle="collapse" attr.data-target="#collapse_{{i+1}}">
+                        <a class="card-title text-dark"> <span class="badge badge-secondary badge-pill"> {{do.id}}
+                            </span> &nbsp; {{do.title}}</a>
+                    </div>
+                    <div id="collapse_{{i+1}}" class="card-body collapse slow" data-parent="#accordion"
+                        *ngFor="let data of do.details">
+                        <p>{{data}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-12 mb-4">
+            <div class="text-center fourthBtn border p-2 mb-3 text-dark">
+                <h6 class="animate__animated animate__zoomIn">Don’ts</h6>
+            </div>
+            <div id="accordion1" class="accordion" *ngFor="let donts of dos_Donts?.donts; let i = index">
+                <div class="card mb-0">
+                    <div class="card-header collapsed bg" data-toggle="collapse" attr.data-target="#collapsed_{{i+1}}">
+                        <a class="card-title text-dark"> <span class="badge badge-secondary badge-pill"> {{donts.id}}
+                            </span> &nbsp; {{donts.title}} </a>
+                    </div>
+                    <div id="collapsed_{{i+1}}" class="card-body collapse" data-parent="#accordion1"
+                        *ngFor="let datas of donts.details">
+                        <p>{{datas}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

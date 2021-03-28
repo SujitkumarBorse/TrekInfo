@@ -1,0 +1,292 @@
+{
+    "clothing":[
+            {
+                "id": "1",
+                "title": "Jackets (Fiber or down).",
+                "img":"../../assets/images/Trek_equipments/Down_Jackets.jpg"
+            },
+            {
+                "id": "2",
+                "title": "Woolen shirts and thick sweaters.",
+                "img":"../../assets/images/Trek_equipments/woolen_shirts_sweaters.jpg"
+            },
+            {
+                "id": "3",
+                "title": "Waterproof jacket with hood or poncho.",
+                "img":"../../assets/images/Trek_equipments/waterproof jacket with hood or poncho.jpg"
+            },
+            {
+                "id": "4",
+                "title": "Tracksuit.",
+                "img":"../../assets/images/Trek_equipments/tracksuit.jpg"
+            },
+            {
+                "id": "5",
+                "title": " 2 pairs of thin socks and 2 pair of woolen socks",
+                "img":"../../assets/images/Trek_equipments/woolen socks.jpg"
+            },
+            {
+                "id": "6",
+                "title": "Trousers",
+                "img":"../../assets/images/Trek_equipments/Trousers.jpg"
+            },
+            {
+                "id": "7",
+                "title": "2 pair of loose fitting long shorts/ skirts",
+                "img":"../../assets/images/Trek_equipments/shorts_skirts.jpg"
+            },
+            {
+                "id": "8",
+                "title": "Pair of Gloves",
+                "img":"../../assets/images/Trek_equipments/Pair of Gloves.jpg"
+            },
+            {
+                "id": "9",
+                "title": "Pair of sandals",
+                "img":"../../assets/images/Trek_equipments/Pair of sandals.jpg"
+            },
+            {
+                "id": "10",
+                "title": "Woolen hat",
+                "img":"../../assets/images/Trek_equipments/Woolen hat.jpg"
+            },
+            {
+                "id": "11",
+                "title": "Long sleeved shirt",
+                "img":"../../assets/images/Trek_equipments/Long sleeved shirt.jpg"
+            },
+            {
+                "id": "12",
+                "title": "Towel and Hankies",
+                "img":"../../assets/images/Trek_equipments/Towel and Hankies.jpg"
+            },
+            {
+                "id": "13",
+                "title": "Light weight walking boots",
+                "img":"../../assets/images/Trek_equipments/Light weight walking boots.jpg"
+            }
+    ],
+
+    "accessories":[
+        {
+            "id": "1",
+            "title": "Snow glasses and sunglasses",
+            "img":"../../assets/images/Trek_equipments/sunglasses.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Trekking Sticks.",
+            "img":"../../assets/images/Trek_equipments/Trekking Sticks.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Duffle bag or kit bag to carry to gear while trekking.",
+            "img":"../../assets/images/Trek_equipments/Duffle bag.jpg"
+        },
+        {
+            "id": "4",
+            "title": " 6-10 smaller plastic bags to dispose garbage.",
+            "img":"../../assets/images/Trek_equipments/small plastic bags to dispose garbage..png"
+        },
+        {
+            "id": "5",
+            "title": "2-4 large plastic bags to separate clean clothes from dirty ones",
+            "img":"../../assets/images/Trek_equipments/large plastic bags to dispose garbage..jpg"
+        },
+        {
+            "id": "6",
+            "title": "Daypack bag to carry your personal requirements.",
+            "img":"../../assets/images/Trek_equipments/Daypack small bag for personal requirement.jpg"
+        },
+        {
+            "id": "7",
+            "title": "Water Bottle, water purifying tablets.",
+            "img":"../../assets/images/Trek_equipments/water filter bottle.jpg"
+        },
+        {
+            "id": "8",
+            "title": "Umbrella (optional)",
+            "img":"../../assets/images/Trek_equipments/Umbrella.jpg"
+        },
+        {
+            "id": "9",
+            "title": "Headlamp, Torch, Candles",
+            "img":"../../assets/images/Trek_equipments/Headlamp.jpg"
+        },
+        {
+            "id": "10",
+            "title": "Matches / Lighters",
+            "img":"../../assets/images/Trek_equipments/Lighters.jpg"
+        },
+        {
+            "id": "11",
+            "title": "Camera, trekking map and compass",
+            "img":"../../assets/images/Trek_equipments/Camera, trekking map and compass.jpg"
+        },
+        {
+            "id": "12",
+            "title": "knife",
+            "img":"../../assets/images/Trek_equipments/knife.jpg"
+        },
+        {
+            "id": "13",
+            "title": "Binocular",
+            "img":"../../assets/images/Trek_equipments/binocular.jpg"
+        }
+    ],
+
+    "equipment_details":[
+        {
+            "id": "1",
+            "title": "Camp shoes/sandals",
+            "details": "A luxury for your feet at the end of the day. Sandals or running shoes will be better you can buy for cheap in Kathmandu, are a necessity for showers during the Khumbu and Annapurna treks."
+        },
+        {
+            "id": "2",
+            "title": "Thermal shirts/underwear",
+            "details": "Good thermals, both tops and bottoms are the best for cold weather in trekking."
+        },
+        {
+            "id": "3",
+            "title": "Nightwear thermals",
+            "details": "Good for making warm nights in the sleeping bag, Silk-weight is lightest and warm."
+        },
+        {
+            "id": "4",
+            "title": "Fleece/sweatpants",
+            "details": "Good for the cold evening and morning."
+        },
+        {
+            "id": "5",
+            "title": "Day-wear T-shirts/Shirts",
+            "details": "On the lower altitude trekking weather will be hot, T-shirts and shirts are recommended."
+        },
+        {
+            "id": "6",
+            "title": "Trekking pants",
+            "details": "Recommended to have 2 pairs."
+        },
+        {
+            "id": "7",
+            "title": "Wind pants",
+            "details": "If your trekking pants are reasonably windproof then special wind pants are not needed. If you do bring a pair, it is not necessary to have Gore-tex. Similar, non-waterproof is quite OK."
+        },
+        {
+            "id": "8",
+            "title": "Neck gaiter",
+            "details": "For winter trekking they are really the best for staying warm."
+        },
+        {
+            "id": "9",
+            "title": "Trekking poles",
+            "details": "Trekking poles are very useful especially for downhill, in popular trekking in Nepal you can buy the wooden trekking poles selling by children, trekking can be done without trekking poles also."
+        },
+        {
+            "id": "10",
+            "title": "Sunglasses",
+            "details": "Good wraparound glasses suitable for snow, its bright up there, but specialized glacier glasses with side pieces are not needed. Contact lens wearers report very few problems except cleaning them in the conditions."
+        },
+        {
+            "id": "11",
+            "title": "Mittens/gloves",
+            "details": "A good pair of wind-proof gloves is essential. You can buy in Kathmandu cheap if you don’t have it."
+        },
+        {
+            "id": "12",
+            "title": "Sun hat/woolen hat",
+            "details": "Trekking in spring and summer of lower altitude is more hotter and whole day sun shining, you can bring the hat or small cap to protect from Sunburn, on the upper part of trek more cold and windy so you can have woolen hat to make your head warmer."
+        },
+        {
+            "id": "13",
+            "title": "First aid kit",
+            "details": "All our trekking our tour and trek leaders carry the first aid kit box including the medicine for altitude sickness and diaoheria and other small problems, you should bring any personal medicines that you need, some time your local medicine is more effective than we provide"
+        },
+        {
+            "id": "14",
+            "title": "Water purification",
+            "details": "some places on the tea house trek can buy the Mineral water but it is discourage for an"
+        },
+        {
+            "id":"15",
+            "title": "Water bottle",
+            "details": "Two water bottles are recommend 1 liters bottles, bring the good one to take boiling water and be leak proof, European Aluminum bottles are best"
+        },
+        {
+            "id":"16",
+            "title": "Torch / Flashlight",
+            "details": "Flash light or head lamp is necessary."
+        },
+        {
+            "id":"17",
+            "title": "Towel",
+            "details": "During the trekking there are no available Towel at guest houses so you need one small and light towel for trekking."
+        },
+        {
+            "id":"18",
+            "title": "Sunscreen and lip balm with sunscreen",
+            "details": "The sun is strong at altitude, especially after snow. Bring at least sunscreen and lip balm WITH SPF 15, and better still SPF 30+."
+        },
+        {
+            "id":"19",
+            "title": "Moisturizer",
+            "details": "The air is dry and windier with dust some part of the trek so moisturizer is good to car for skins.environmental point of view because of the plastic bottles, hot and boiled water can get from the guest house. Iodine tablets and water purification drop chlorine is recommended to take."
+        },
+        {
+            "id":"20",
+            "title": "Toiletries",
+            "details": "shampoo, soap, scissors, hair products, tooth brush and tooth paste, tissues, sun cream, chap stick, antiseptic hand wipes, face washer etc."
+        },
+        {
+            "id":"21",
+            "title": "Daypack",
+            "details": "This should be comfortable and a good waist band that transfers some of the weight to the hips is most important. It needs to be big enough to take a jacket, fleece, water, camera and odds and ends. Kathmandu now offers a range of cheap fall-part packs to top of the range."
+        },
+        {
+            "id":"22",
+            "title": "Footwear",
+            "details": " One pair of sturdy light to middle-weight hiking boots. Typically these are combination of nylon and leather. We suggest boots with a Gore-tax lining to be waterproof. These types of shoes have a lug sole for good traction and provide lateral support for the ankles that is essential while hiking (for example; the Vasquez Clarion and the A solo Approach). Heavy-weight all-leather backpacking boots are not recommended. Be sure your footwear is broken in and fits well. Boots should fit comfortably over one thin liner sock and a mid-weight wool sock. This reduces chafing and blisters. Tennis shoes or sandals are also useful for in camp use or bathing."
+        },
+        {
+            "id":"23",
+            "title": "Socks",
+            "details": " Four pairs of liner socks. Four pairs of mid-weight wool socks. Socks and footwear should be coordinated for a proper fit."
+        },
+        {
+            "id":"24",
+            "title": "Back pack",
+            "details": " For travel in Nepal and for trekking a back pack is more suitable than a suit case. If you plan on trekking, hiking a sturdy and comfortable back pack and day pack is essential. You should have your back pack expertly fitted to you before your departure. Your back pack should also have a water proof cover. Normally you need 2 one is 60 litters and another 25 is more suitable."
+        },
+        {
+            "id":"25",
+            "title": "Sleeping bag",
+            "details": "Down-filled Sleeping bags are better for Nepal tour and trekking. Beg, borrow or steal a good one (i.e. 4-5 season) because high altitude nights will be cool. Good down is fluffy, light and thick. A muff (an extra section around the neck) makes a big difference to the overall warmth of a bag. Reasonable sleeping bags are cheaply available for rent or buy in Kathmandu. We advise you to take -20 is batter."
+        },
+        {
+            "id":"26",
+            "title": "Sleeping bag liner",
+            "details": " Cotton, silk or fleece. Saves washing your sleeping bag and adds warmth."
+        },
+        {
+            "id":"27",
+            "title": "Down jacket/Gore-Tex",
+            "details": " This Jacket is needed for trekking up to 3200m also cold in the evening and morning, if you don’t have it and wanted to use for only trekking you can rented."
+        },
+        {
+            "id":"28",
+            "title": "Fleece jacket",
+            "details": " Most trekkers consider this essential, but alternatives are a thick thermal top or a light down jacket. In Kathmandu you can get almost any sort of copy fleece you need"
+        },
+        {
+            "id":"29",
+            "title": "Rain Jacket/ Wind Shell",
+            "details": " The jacket should be very water repellent and roomy."
+        },
+        {
+            "id":"30",
+            "title": "Layering",
+            "details": " Keeping the proper temperature is best accomplished by adding or taking off layers of clothing. While hiking during the day, you may be in shorts or skirt and a long-sleeved shirt. During the evening, as the temperature cools, you will add a sweater and, perhaps, a parka. Bringing the items outlined below will ensure that you are adequately prepared. Make sure that your clothing is sized to allow your layers and still move comfortably."
+        }
+
+    ]
+
+}

@@ -1,0 +1,127 @@
+{
+    
+    "dos": [
+        {
+            "id": "1",
+            "title": "Expect the unexpected",
+            "details": [
+                "Downside of everything not being Robotic and clockwork yet. Expect all unlikely situations to arise, basic human errors, natural turbulence and some off the plan turns. As much as your organizer makes sure you get your value for money, and time invested, understand that not everything works as smooth as a computer-code"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Respect the natural state of the Trail",
+            "details": [
+                "Leave be the trees, flowers, fauna and local tribes alone. Meanwhile, realize the fine line difference between “Experiencing the culture, interacting with locals” and “Pressurizing them to interact with you or click pictures with you”. It is inappropriate to treat someone that way because they are born in a ethnicity that looks different. Leave behind nothing but footprints, take back lots of unforgettable memories."
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Be responsibly Adventurous",
+            "details": [
+                "Let that adrenaline rush in, but know your limits. It only takes a millisecond and one reckless decision to get yourself in danger. Neither be a spoilsport and dare to be adventurous, nor challenge yourself to new levels of risk."
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Push your sleep and physique limits to experience little things",
+            "details": [
+                "Clear Sunrises, starry skies, hooting owls, and the sound of silence. These are the little things you’ll probably not find back in your city home. Make the best of your trip by experiencing these gems, and, discovering some new gem-moments of your own."
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Step out of your comfort zone",
+            "details": [
+                "Pitch in your tents, sleep on a rugged tent floor,live off dimmed lanterns, collect some firewood, prepare food from peeling veggies to washing dishes afterwards. You’ll learn a few life skills along the way, and, learn to appreciate little luxuries which you simply buy off back home."
+            ]
+        },
+        {
+            "id": "6",
+            "title": "Carry your backpack. Do not offload it.",
+            "details": [
+                "Carrying your backpack is part of the trekking experience. It is a testament to your physical and mental strength. It is very empowering.",
+                "We encourage this practice for two other reasons. Firstly, although we have a weight limit of 9 kg for backpacks, I have personally witnessed trekkers coming with overweight bags. Porters and mules bear the brunt of this carelessness. When you make a conscious choice to carry your own backpack, you pack cautiously. Watch this video to see how to to pack effectively.",
+                "Secondly, every time you offload a backpack, we take in an additional porter/mule. With that comes the need for extra resources which results in excess waste generation. Hence, I recommend to give it a serious thought before choosing to offload your backpack."
+            ]
+        },
+        {
+            "id": "7",
+            "title": "Bring reusable items",
+            "details": [
+                "This is pretty self-explanatory. Many trekkers find it inconvenient to wash their own utensils. Some bring disposable items for the trek.",
+                "Although we insist on reusable water bottles, use-and-throw bottles are frequently used by many. Not only are they a health hazard, they tend to accumulate and usually don’t find an exit from the mountains. Plastic bottles, styrofoam plates are a common sight. They take hundreds of years to decompose and are a threat to any ecosystem, let alone the pristine mountains."
+            ]
+        },
+        {
+            "id": "8",
+            "title": " Bring eco-friendly products",
+            "details": [
+                "We often come to the mountains to detox physically and mentally. With common toiletries like toothpaste, face wash, sunscreens, lip balms, etc., the dream of detox is a far cry.",
+
+                "Toiletries and cosmetics are often laden with harmful chemicals. Oxybenzone in sunscreen has been attributed towards declining coral reefs by various studies and sodium laureth sulfate in toothpaste.",
+
+                "These are damaging to the body of the user as well as to the environment. So plan and pack eco-friendly alternatives."
+            ]
+        },
+        {
+            "id": "9",
+            "title": " Collect and segregate waste",
+            "details": [
+                "Our core vision is to leave the mountains in a better state than we find them in. One way to do that is to clean the trail as we trek. The success of this mission depends largely on your participation. Thousands of trekkers like you, have helped us collect over 1500 sacks of garbage.",
+
+                "Cleaning is one thing; disposing the waste is a completely different ball game. Much of the waste that we collect can be recycled. Much of the waste we generate can be up-cycled. But to facilitate this, we need to segregate waste. The easiest way of segregation is at the point of collection. Unsegregated garbage in landfills is as bad as transferring trash from one place to another. It is our moral obligation to segregate the waste we collect."
+            ]
+        },
+        {
+            "id": "10",
+            "title": "Take your waste back",
+            "details": [
+                "Finding places to properly dispose waste is a constant struggle for me. Even when we do, the state of landfills is a far cry from set environmental standards.",
+                
+                "Dumping grounds of Manali is one such example. Situated on the Beas river, it is a safety hazard by itself. One way to reduce the load on these landfills is by consciously taking back the waste we generate. This includes the packaged food wrappers, plastic bottles, etc.",
+
+                "We also ask women trekkers to put used sanitary napkins in zip locks and take them back to the cities. At high altitude with low temperatures, bacteria is hardly active which means the rate of decomposition is dismal. As long as you properly layer it with newspaper and place it inside a zip-lock bag, you will hardly experience bad odor. There is no reason to consider it unhygienic."
+            ]
+        }
+    ],
+
+    "donts":[
+        {
+            "id": "1",
+            "title": "Over-pack",
+            "details": [
+                "Before going ahead and stuffing everything and anything in your sack, ask yourself! Can I survive without it?And, if, somewhere deep down, someone’s screaming a loud big YES, leave it back home. Surviving without access to particular things will be a life-skill you’ll gain."
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Spray on a lot of Aromatics",
+            "details": [
+                "Most Aromatics are derived from nature,or, nature identical substances, and are usually more concentrated than one can find in nature. Spraying on Aromatics can attract and lure a lot of harmless and harmful critters alike. They can creep on to , or even sting you!"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Wander off from the Group",
+            "details": [
+                "It may seem cool,daring or thrilling to take off in the wild on your own for a while. But, it won’t be cool when you get lost in the middle of nowhere with no one to look out for you. Yes, the trek leads know the trail well, but,what comes off the trail, your leads are as foreign to the things out there as you are."
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Drink alcoholic beverages & Smoke",
+            "details": [
+                "Stick to experiencing the joys, trances and highs mother nature has in store for you. Ward off the Cigarettes and Bottles back in your Concrete-Jungle-Home. Help yourself to a safer trip,and, an easy on the lungs hike."
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Wait for the trail to end throughout the trek",
+            "details": [
+                "Always remember, it’s about the journey and not the destination. Don’t be anxious every now and then wondering how much of the trail is left,and, worry about whether you’ll be able to make it or not. Yes, the trails plan is put together in a way that everyone makes it to the end. So, stay carefree , and breathe and visualize in everything you pass by. Remember!probably this may be the only time in your life time that you’d be there at that location. Although, your destination will be pretty erratic too!"
+            ]
+        }
+    ]
+
+}

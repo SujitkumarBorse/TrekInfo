@@ -1,0 +1,79 @@
+{
+    "todo_after_trek": [
+        {
+            "id": "1",
+            "details": "Minimize the risks of sore feet or twisted ankles by wearing the proper hiking boots or shoes to match the hiking trail."
+        },
+        {
+            "id": "2",
+            "details": "Warm up before starting the hike with stretches and short moderate-intensity walks."
+        },
+        {
+            "id": "3",
+            "details": "Avoid carrying a backpack that is too heavy for the body frame and level of fitness."
+        },
+        {
+            "id": "4",
+            "details": "Wear proper hiking socks such as those with a moisture-wicking material to prevent blisters developing."
+        },
+        {
+            "id": "5",
+            "details": "Pack a first-aid kit to match the hiking environment. Pack a first-aid kit to match the hiking environment."
+        },
+        {
+            "id": "6",
+            "details": "Use hiking poles on the long or difficult hikes."
+        },
+        {
+            "id": "7",
+            "details": "Get the proper fluid (use a water bottle or hydration pack) and food (fresh or dried fruit, trail mix, etc.) intake while on the trails."
+        }
+    ],
+    "imp_tips":[
+        {
+            "id":"1",
+            "title":"REST UP ",
+            "details":"Start the post-hike recovery process by resting the tired muscles as soon as possible. A two to three day lay up might be needed for the really sore shins, ankles, or feet. Resting with the affected leg elevated (above the heart) is the best method to rest up. Use a stack of pillows or similar to rest in a comfortable and elevated position. Also, take in plenty of fluids to rehydrate. Water or fluid intake should be at least 6-8 glasses per day."
+        },
+        {
+            "id":"2",
+            "title":"KEEP MOVING ",
+            "details":"While we advise you rest up, do not stay totally still or your muscles will feel like they are csiezing up!. Use gentle exercise even throughout the rest period which should consist of getting up and walking around. A short walk or static stretches (stretching the calves and quads) will help to avoid issues with the muscles stiffening up."
+        },
+        {
+            "id":"3",
+            "title":"ICE PACK",
+            "details":"Ice packs should be applied to those areas likely to swell such as a twisted ankle. A frozen bag of peas to a purpose-made pack can help in this situation. The entire area of the swelling should be covered to achieve the most effective results. Use the ice pack at regular intervals over the following 48-72 hours. If the swelling persists after the initial 48-hours, it might benefit to use a combination of ice and heat packs. These should be alternated (change every 25-30 minutes) to provide the desired relief."
+        },
+        {
+            "id":"4",
+            "title":"PROTEIN ",
+            "details":" Eat low-fat dairy, beans, nuts or similar lean protein to help the muscles repair after the stress of the hike."
+        },
+        {
+            "id":"5",
+            "title":"SOAK",
+            "details":" Soak the body after a hike to provide a useful muscle relaxant. Use warm water with Epsom salts (1 cup) to achieve the best results. This is a great counterpoint to the ice-pack above. So if you cannot soak your leg, using a heat-pad to alternate with the icing can have similar benefits"
+        },
+        {
+            "id":"6",
+            "title":"MASSAGE",
+            "details":" Visit a massage therapist who specializes in deep tissue or sports massage. Using a physical therapy session like this is certain to help ease the pain related to injuries associated with repetitive stress."
+        },
+        {
+            "id":"7",
+            "title":"OVER-THE-COUNTER MEDICATION ",
+            "details":" Use acetaminophen, ibuprofen, or other over-the-counter medications to help relieve the pain and discomfort of sore muscles. But, discuss the best course of treatment with a doctor if already taking prescription medication.    Also be wary of taking anti-inflammatories like Ibuprofen too regularly as they can have some long term side-effects"
+        },
+        {
+            "id":"8",
+            "title":"PHYSIO",
+            "details":" For the more persistent aches and pains lasting seven days or more, it benefits to visit a physio. This can help to rule out the more serious injury. A sports-medicine physician or orthopedist can run the correct tests to establish the scope of the injury."
+        },
+        {
+            "id":"9",
+            "title":"SUMMARY",
+            "details":" Your body is very resilient, but if you do not let your muscles and injuries heal properly, you can cause long term issues. The trick with hiking and other endurance sports like marathon running is to cycle your effort. Build up to a long hike, then take it easy (but not entirely sedentary!) and gradually build your body back up to the next long haul. Also, remember the old adage about “how do you make God laugh? Tell him your plans…” For all the planning and management in the world, sometimes your body is just not right. If you are feeling bad, don’t push your body too hard – curtail a hike if it is causing you issues. Hiking is something that can be enjoyed well into old age if you are careful, so do not risk doing serious injury."
+        }
+    ]
+}

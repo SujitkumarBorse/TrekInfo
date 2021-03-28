@@ -1,0 +1,63 @@
+{
+    "tips_first_time_trek": [
+        {
+            "id": "1",
+            "title":"Correct footwear",
+            "details": "Invest in a pair of good trekking shoes that provide you ankle protection. Wear and tear them (literally) by walking in them days before the trek. This way you don't have to worry about trekking long distance and ending up in a shoe bite on your very first day of the trek. Also, take along good pair of socks that soak moisture, like a nylon or wool pair."
+        },
+        {
+            "id": "2",
+            "title":"Condition and train your body",
+            "details": "Start working on your stamina by going on morning walks. Or whenever you can find time in the day. Gradually increase the time and intensity of your walks. Practice walking on similar terrains as of the one you are headed to, if possible."
+        },
+        {
+            "id": "3",
+            "title":"Train your legs",
+            "details": "Legs are going to make it possible for you so you need to make sure they are in great shape. Train your legs with squats, lunges, cycling, leg presses and other sports that keep your interest like swimming, football etc."
+        },
+        {
+            "id": "4",
+            "title":"Walk with your backpack",
+            "details": "Gradually inprove the quality of your long walks by carrying a backpack that you will take along the trek. If not the same daypack but take something of the same size, load it and just walk with it. This will make you accustomed to the weight that you will be dealing with."
+        },
+        {
+            "id": "5",
+            "title":"Choose an easy trek to begin with",
+            "details": "Do not overestimate or overexert your body by aiming too high. There are plenty of beautiful and challenging treks in India for a newbie trekker to choose from. Almost always the treks are differentiated on the difficulty scale from easy to moderate to extreme. Start slow, start easy and gain confidence. Your body will thank you for it."
+        },
+        {
+            "id": "6",
+            "title":"Right and light packing",
+            "details": "Pack warm clothes, rain gear, medicines, torch etc. It all depends on the duration of your trek. The idea is to pack right and stuff your backpack with extra pair of denims, sweaters or shoes. Don't forget you are going to carry that bag."
+        }
+    ],
+    
+    "tips_first_time_trek_next":[
+        {
+            "id": "7",
+            "title":"Wear layers",
+            "details": "While walking your body will sweat and you would want to take off that jacket. So wear a warmer, cotton tee, a sweatshirt and a jacket so you can remove and wear layers as and when you feel the need to."
+        },
+        {
+            "id": "8",
+            "title":"Read up",
+            "details": "Read up on the place you are visiting. There is tonnes of information in those pages that your search result will yield. Read what other trekkers are saying, read about the risks, do's and dont's of the trekking route. Basically read up to get yourself prepared for what to expect."
+        },
+        {
+            "id": "9",
+            "title":"Stay hydrated and eat right",
+            "details": "Pack dryfruits, bars, trail mixes (that's why they are called trail mix, to be taken on a trail!), chocolates to get that energy boost. The importance of keeping yourself hydrated cannot be said enough to make it count. Drink water to avoid cramps on the strenuous paths."
+        },
+        {
+            "id": "10",
+            "title":"Choose a good, certified firm that conducts treks",
+            "details": "Make your first trek count. Sign up with an agency or firm that conducts professional trekking groups. They know their job and will take care of you!"
+        },
+        {
+            "id": "11",
+            "title":" Be a responsible trekker",
+            "details": "Well, goes without saying that you need to respect the place you are going to. Respect nature and DO NOT Litter. Ready and armed now, are we? Let's plan a trek this winter to start off."
+        }
+    ]
+
+}

@@ -1,0 +1,23 @@
+<div class="container">
+    <h3 class="text-center font-weight-bold pt-3 pb-3 animate__animated animate__zoomIn">
+        <img src="../../../assets/images/icons/faq.png" height="70px" alt="FAQ icon">
+        Frequently Asked Questions</h3>
+    <div class="row">
+
+        <div class="col-md-12 col-sm-12 col-12 mb-4">
+            <div id="accordion" class="accordion" *ngFor="let data of faq?.qna; let i = index">
+                <div class="card mb-2">
+                    <div class="card-header collapsed bg shadow-lg rounded" data-toggle="collapse" attr.data-target="#collapse_{{i}}">
+                        <a class="card-title text-dark"> 
+                            <img src="../../../assets/images/icons/question_icon_small.png" height="30px" alt="question icon">
+                            &nbsp; {{data.question}}</a>
+                    </div>
+                    <div id="collapse_{{i}}" class="card-body collapse slow" data-parent="#accordion">
+                        <p><strong>Ans :</strong> {{data.answer}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

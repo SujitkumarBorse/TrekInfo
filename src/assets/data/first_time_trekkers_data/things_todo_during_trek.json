@@ -1,0 +1,40 @@
+{
+    "todo_during_trek": [
+        {
+            "id": "1",
+            "details": "Always remember never hike alone. This is not an adventure sport where you will have someone to guide you. So, don't feel too brave as you might need someone to help you in the time of crisis"
+        },
+        {
+            "id": "2",
+            "details": "Know how to get to your destination, which may mean buying a map and carrying a compass."
+        },
+        {
+            "id": "3",
+            "details": "Along the way, you may need to refill your water supply. Know where to find water, and have that marked on your map."
+        },
+        {
+            "id": "4",
+            "details": "Make sure you know about the weather conditions and layer yourself that you can remove as you’re hiking."
+        },
+        {
+            "id": "5",
+            "details": "Your safety on the trail is your own responsibility. Stay on the trail and don’t take shortcuts on switchbacks."
+        },
+        {
+            "id": "6",
+            "details": "Know your capabilities. It’s best to be conservative on your first hike. Altitude, climbing, and heat can make hikes that much more difficult."
+        },
+        {
+            "id": "7",
+            "details": "Keep your medical conditions in mind when you’re planning a hike. Knee and back problems, heart conditions, diabetes, asthma, and other medical conditions can be amplified with exertion and severe weather."
+        },
+        {
+            "id": "8",
+            "details": "Consider hiking poles to take the stress off your knees and thighs."
+        },
+        {
+            "id": "9",
+            "details": "Keep your backpack as light as possible. Water and food should be the heaviest items you pack."
+        }
+    ]
+}

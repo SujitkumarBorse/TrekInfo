@@ -1,0 +1,29 @@
+
+.thirdBtn, .fourthBtn{
+    background-color: #d8e7f7;
+}
+.bg:hover{
+    background-color: rgba(72, 255, 0, 0.247);
+}
+a{
+    text-decoration: none;
+}
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+
+.accordion1 .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion1 .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}

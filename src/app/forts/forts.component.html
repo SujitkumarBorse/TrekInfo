@@ -1,0 +1,763 @@
+<div class="container">
+    <h2 class="text-center font-weight-bold pt-3 pb-3 animate__animated animate__zoomIn">Forts You Must Visit</h2>
+
+
+    <!-- 1st fort -->
+
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div1" role="button" aria-expanded="true" aria-controls="collapseExample">
+
+        <span class="float-left overflow">1. <img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Raigad
+            Fort </span>
+
+        <star-rating class="float-right" value="5" totalstars="5" checkedcolor="red" uncheckedcolor="black" size="24px"
+            readonly="false" (rate)="onRate($event)"></star-rating>
+
+    </h5>
+
+    <div id="div1" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.raigadFort">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <div *ngFor="let detail of fortData.details">
+                        <p>{{detail}}</p>
+                    </div>
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}</p>
+                </div>
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- 2nd fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div2" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">2. <img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Lohagad
+            Fort </span>
+
+        <star-rating class="float-right" value="4.7" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+
+    </h5>
+
+    <div id="div2" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.lohagadFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <div *ngFor="let detail of fortData.details">
+                        <p>{{detail}}</p>
+                    </div>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+
+    <!-- 3rd fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div3" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">3. <img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Janjira
+            Fort </span>
+
+        <star-rating class="float-right" value="4.7" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div3" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.janjiraFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <div *ngFor="let detail of fortData.details">
+                        <p>{{detail}}</p>
+                    </div>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- 4th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div4" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <span class="float-left overflow">4. <img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Daulatabad
+            Fort </span>
+
+        <star-rating class="float-right" value="4.7" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div4" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.daulatabadFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- 5th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div5" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">5. <img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Panhala
+            Fort
+        </span>
+
+        <star-rating class="float-right" value="4.7" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div5" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.panhalaFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+
+    <!-- 6th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div6" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">6. <img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo">
+            Shaniwarwada Fort
+        </span>
+
+        <star-rating class="float-right" value="4.7" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div6" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.shaniwarwadaFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- 7th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div7" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">7. <img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo">
+            Yashwantgad Fort
+        </span>
+
+        <star-rating class="float-right" value="4.7" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div7" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.yashwantgadFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- 8th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div8" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">8. <img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Sindhudurg
+            Fort
+        </span>
+
+        <star-rating class="float-right" value="4.7" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div8" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.sindhudurgFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- 9th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div9" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">9. <img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Sinhagad
+            Fort
+        </span>
+
+        <star-rating class="float-right" value="4.7" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div9" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.sinhagadFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- 10th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div10" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">10.<img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Pratapgad
+            Fort
+        </span>
+
+        <star-rating class="float-right" value="3.7" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div10" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.pratapgadFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- 11th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div11" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">11.<img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Torna Fort
+        </span>
+
+        <star-rating class="float-right" value="4.7" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div11" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.tornaFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- 12th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div12" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">12.<img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Kandhar
+            Fort
+        </span>
+
+        <star-rating class="float-right" value="3.3" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div12" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.kandharFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- 13th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div13" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">13.<img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Rajmachi
+            Fort
+        </span>
+
+        <star-rating class="float-right" value="3.3" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div13" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.rajmachiFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- 14th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div14" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        <span class="float-left overflow">14.<img src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Tikona
+            Fort
+        </span>
+
+        <star-rating class="float-right" value="3.3" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+    </h5>
+
+    <div id="div14" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.tikonaFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+
+    <!-- 15th fort -->
+    <h5 class="cursor clearfix shadow-lg bg-light rounded p-2  animate__animated animate__rotateInUpLeft bg"
+        data-toggle="collapse" href="#div15" role="button" aria-expanded="false" aria-controls="collapseExample">
+        
+        <span class="float-left overflow">15.<img
+            src="../../assets/images/icons/fort_icon/fort_icon2.png" alt="logo"> Vasota Fort 
+        </span>
+
+        <star-rating class="float-right" value="2.9" totalstars="5" checkedcolor="red" uncheckedcolor="black"
+            size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+        </h5>
+
+    <div id="div15" class="mt-1 collapse mb-2">
+        <section class="bg-light p-3" *ngFor="let fortData of fortGallary?.vasotaFort">
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12" *ngFor="let data of fortData.image">
+                    <a [href]='data' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+                        <img class="img-fluid rounded" [src]='data' alt="pic">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+                    <h5>About Fort :</h5>
+                    <p>{{fortData.details}}</p>
+
+                    <p><span class="font-weight-bold">Timings : </span> {{fortData.time}}</p>
+
+                    <p><span class="font-weight-bold">Location : </span> {{fortData.location}}</p>
+
+                    <p><span class="font-weight-bold">Entry fee : </span> {{fortData.entry_fees}}
+                    </p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <agm-map [latitude]="fortData.lat" [longitude]="fortData.lng" [zoom]="zoom">
+                        <agm-marker [latitude]="fortData.lat" [longitude]="fortData.lng" [title]="fortData.mapTitle">
+                        </agm-marker>
+                    </agm-map>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+</div>

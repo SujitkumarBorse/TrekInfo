@@ -1,0 +1,380 @@
+{
+    "raigadFort": [
+        {
+            "id": "1",
+            "image": [
+                "../../assets/images/raigad_fort/raigad_fort1.jpg",
+                "../../assets/images/raigad_fort/raigad_fort2.jpg",
+                "../../assets/images/raigad_fort/raigad_fort3.jpg",
+                "../../assets/images/raigad_fort/raigad_fort6.jpg",
+                "../../assets/images/raigad_fort/raigad_fort3.jpg",
+                "../../assets/images/raigad_fort/raigad_fort2.jpg",
+                "../../assets/images/raigad_fort/raigad_fort6.jpg",
+                "../../assets/images/raigad_fort/raigad_fort1.jpg"
+            ],
+            "details": [
+                "Rising 820 meters above sea level, Raigad Fort was seized by Chhatrapati Shivaji in 1674 and made the capital after being crowned the King of Marathas. Located in the Sahyadris, this fort is accessible by foot, via approximately 1,737 steps leading to the fort, and through the Raigad Ropeway which can take the visitors to the fort in about 10 minutes.",
+                "Fondly known as the ‘Gibraltar of the East’ by Europeans, this is one of the most beautiful Maharashtra forts and is surrounded by a deep, luscious green valley on one side. Now mostly in ruins, the fort also houses a statue of Maharaja’s pet dog!"
+            ],
+            "entry_fees": "INR 10 for Indians and INR 100 for foreigners.",
+            "time": "10:00AM to 6:00PM",
+            "location": "Mahad, Raigad",
+            "lat": 18.2347,
+            "lng": 73.4464,
+            "mapTitle":"raigad Fort"
+        }
+    ],
+    "lohagadFort": [
+        {
+            "id": "2",
+            "image": [
+                "../../assets/images/lohagad_fort/lohagad_fort3.jpg",
+                "../../assets/images/lohagad_fort/lohagad_fort4.jpg",
+                "../../assets/images/lohagad_fort/lohagad_fort5.jpg",
+                "../../assets/images/lohagad_fort/lohagad_fort6.jpg",
+                "../../assets/images/lohagad_fort/lohagad_fort7.jpg",
+                "../../assets/images/lohagad_fort/lohagad_fort2.jpg",
+                "../../assets/images/lohagad_fort/lohagad_fort1.jpg",
+                "../../assets/images/lohagad_fort/lohagad_fort2.jpg"
+            ],
+            "details": [
+                "Built in the 16th century, the Lohagarh Fort is a military marvel that remained with the Marathas for the majority of time, except for the short 5 years when the Mughals captured it. Rising at an elevation of 1,033 meters above sea level, this fort is connected to the nearby Visapur Fort by a small range. Overlooking the Parvana Reservoir, the four gates of the fort are still standing upright and are in good shape.",
+                "Lohagarh Fort accessible by foot through a beautiful and scenic trek. This trek is especially famous during the monsoons and if one takes a small diversion, the majestic Bhaja Caves can also be visited on the way. The trek to this Maharashtra fort is just 7 kilometers one way, making it perfect for first time trekkers. A tar road also goes all the way up to the fort and is accessible by motor vehicles."
+            ],
+            "entry_fees": " Free entry.",
+            "time": "09:00AM to 6:00PM",
+            "location": "Khandala, Pune",
+            "lat": 18.7102,
+            "lng": 73.4759,
+            "mapTitle":"lohagad Fort"
+        }
+    ],
+    "janjiraFort": [
+        {
+            "id": "3",
+            "image": [
+                "../../assets/images/janjira_fort/janjira_fort1.jpg",
+                "../../assets/images/janjira_fort/janjira_fort2.jpg",
+                "../../assets/images/janjira_fort/janjira_fort3.jpg",
+                "../../assets/images/janjira_fort/janjira_fort4.jpg",
+                "../../assets/images/janjira_fort/janjira_fort4.jpg",
+                "../../assets/images/janjira_fort/janjira_fort3.jpg",
+                "../../assets/images/janjira_fort/janjira_fort2.jpg",
+                "../../assets/images/janjira_fort/janjira_fort1.jpg"
+            ],
+            "details": [
+                "Located off the cost of the village of Murad, the Janjira Fort sits on an oval-shaped rock on an island in the Arabian Sea. One of the strongest marine forts in Maharashtra, this fort is accessible to the public by jetties. A short visit to this fort can enchant any type of travelers be it the nature lover or the history buff.",
+                "This specimen of a long forgotten time is the remnant of a rich history of the Abyssinian Sidis group. Right in the middle of the vast, limitless ocean, the gently swaying palms and the humble little beach at its foot can make the visitor’s day. To this day, several of the bastions and the massive canons from the 17th century remain, making this fort a true goldmine for all history lovers!"
+            ],
+            "entry_fees": " Free entry.",
+            "time": "09:00AM to 6:00PM",
+            "location": "Murud",
+            "lat": 18.2999,
+            "lng": 72.9644,
+            "mapTitle":"janjira Fort"
+        }
+    ],
+    "daulatabadFort": [
+        {
+            "id": "4",
+            "image": [
+                "../../assets/images/daulatabad_fort.jpg",
+                "../../assets/images/daulatabad_fort.jpg",
+                "../../assets/images/daulatabad_fort.jpg",
+                "../../assets/images/daulatabad_fort.jpg",
+                "../../assets/images/daulatabad_fort.jpg",
+                "../../assets/images/daulatabad_fort.jpg",
+                "../../assets/images/daulatabad_fort.jpg",
+                "../../assets/images/daulatabad_fort.jpg"
+            ],
+            "details": [
+                "Rising up on a conical hill some 200 meters high, in the midst of lush greenery, is the formidable Daulatabad Fort believed to have been built in the 12th century. The entry to this Maharashtra fort is difficult, having to cross a narrow bridge, a long gallery excavated in rock, and then some 750 steep steps. But the sight from the top is something to behold.",
+                "Not only is this one of the most immensely beautiful forts in Maharashtra, it also has important strategic qualities to its name including only a single gate for entry/ exit to confuse the enemy, and spikes on the doors to prevent breaking in by elephants."
+            ],
+            "entry_fees": " INR 10 for Indians and INR 100 for foreigners.",
+            "time": "09:00AM to 6:00PM",
+            "location": "Aurangabad",
+            "lat": 19.9426,
+            "lng": 75.2134,
+            "mapTitle":"daulatabad Fort"
+        }
+    ],
+    "panhalaFort": [
+        {
+            "id": "5",
+            "image": [
+                "../../assets/images/panhala_fort.jpg",
+                "../../assets/images/panhala_fort.jpg",
+                "../../assets/images/panhala_fort.jpg",
+                "../../assets/images/panhala_fort.jpg",
+                "../../assets/images/panhala_fort.jpg",
+                "../../assets/images/panhala_fort.jpg",
+                "../../assets/images/panhala_fort.jpg",
+                "../../assets/images/panhala_fort.jpg"
+            ],
+            "details": [
+                "Strategically located looking over a pass in the Sahyadris, the Panhala Fort is also often called the home of the serpents. The pass was a major trade route and hence the fort was involved in a lot of skirmishes in its time. This fort was also the residence of the queen regent of Kolhapur, Tarabai, who spent her early years here.",
+                "Declared as a protected monument by the government of Maharashtra, the palace of Tarabai now houses a school, a boys’ hostel, and several government offices. On the other hand, the rest of the fort is in ruins."
+            ],
+            "entry_fees": " No entry fee.",
+            "time": "Sunrise to sunset.",
+            "location": "Kolhapur.",
+            "lat": 16.8109,
+            "lng": 74.1022,
+            "mapTitle":"panhala Fort"
+        }
+    ],
+    "shaniwarwadaFort": [
+        {
+            "id": "6",
+            "image": [
+                "../../assets/images/shaniwarwada_fort.jpg",
+                "../../assets/images/shaniwarwada_fort.jpg",
+                "../../assets/images/shaniwarwada_fort.jpg",
+                "../../assets/images/shaniwarwada_fort.jpg",
+                "../../assets/images/shaniwarwada_fort.jpg",
+                "../../assets/images/shaniwarwada_fort.jpg",
+                "../../assets/images/shaniwarwada_fort.jpg",
+                "../../assets/images/shaniwarwada_fort.jpg"
+            ],
+            "details": [
+                "This historical fortification seated in the city of Pune used to be ruled by the Peshwas of the Marathas before it was lost to the British Empire in 1818. Built in 1732, the fort was largely destroyed in 1828 by a mysterious fire but the remnants are now conserved and used as a popular tourist destination within the city. Originally a seven storey monument, the top 6 floors were destroyed during the British invasion and only one floor made of stone remain today, which is open to visitors.",
+                "The Shaniwarwada made an appearance in the iconic film Bajirao Mastani, and is now popularly known to be a haunted palace, and is famous for its paranormal sightings. Another famous attraction here is the light and sound show that happens inside the Wada every day in Hindi and Marathi, depicting the history of this age old fort."
+            ],
+            "entry_fees": " INR 5 for Indians, INR 125 for foreigners, and INR 25 for light and sound show.",
+            "time": "8 am to 6:30 pm for visiting, and 6:30 pm and 8:30 pm for light and sound show.",
+            "location": "Pune",
+            "lat": 18.5181,
+            "lng": 73.8533,
+            "mapTitle":"shaniwarwada Fort"
+        }
+    ],
+    "yashwantgadFort": [
+        {
+            "id": "7",
+            "image": [
+                "../../assets/images/yashwantgad_fort.jpg",
+                "../../assets/images/yashwantgad_fort.jpg",
+                "../../assets/images/yashwantgad_fort.jpg",
+                "../../assets/images/yashwantgad_fort.jpg",
+                "../../assets/images/yashwantgad_fort.jpg",
+                "../../assets/images/yashwantgad_fort.jpg",
+                "../../assets/images/yashwantgad_fort.jpg",
+                "../../assets/images/yashwantgad_fort.jpg"
+            ],
+            "details": [
+                "Located over a small hill on the Maharashtra- Goa border, this magnificent tree entangled fort sits north of the Jaitapur Creek and overlooks some of the most beautiful beaches of the south Maharashtra coast. The Yashwantgad Fort is the perfect example of how Mother Nature can take over anything that is manmade.",
+                "Roots of the trees have slowly made their way onto the walls inside the fort which have resulted in the roofless citadels. Langurs and drongo birds are present in plenty and make for a true treat to the eyes. One must pass through several gateways amidst the forest, and then cross a trench surrounding the building to be able to enter one of the most majestic forts in Maharashtra."
+            ],
+            "entry_fees":" No entry fee.",
+            "time": "Sunrise to sunset.",
+            "location": "Khalchikar.",
+            "lat": 15.7522,
+            "lng": 73.6648,
+            "mapTitle":"yashwantgad Fort"
+        }
+    ],
+    "sindhudurgFort": [
+        {
+            "id": "8",
+            "image": [
+                "../../assets/images/sindhudurg_fort.jpg",
+                "../../assets/images/sindhudurg_fort.jpg",
+                "../../assets/images/sindhudurg_fort.jpg",
+                "../../assets/images/sindhudurg_fort.jpg",
+                "../../assets/images/sindhudurg_fort.jpg",
+                "../../assets/images/sindhudurg_fort.jpg",
+                "../../assets/images/sindhudurg_fort.jpg",
+                "../../assets/images/sindhudurg_fort.jpg"
+            ],
+            "details": [
+                "A historically significant fort, occupying an islet in the Arabian Sea, the Sindhudurg Fort was built by the Maratha hero, Chhatrapati Shivaji Maharaj, and lies just off the coat in Maharashtra. Built on a small island called Khurte Bet, the main purpose of this fort was to fight against the rising dominance of the colonizers like the French, English, Dutch and Portuguese.",
+                "Although most permanent residents of the fort moved out since its abandonment due to fewer employment opportunities, about 15 families still reside inside the fort premises. Propping up right in the middle of the vast ocean, the Sindhudurg Fort is truly a sight to behold."
+            ],
+            "entry_fees":" No entry fee.",
+            "time": "09:00AM to 5:00PM",
+            "location": "Malvan",
+            "lat": 16.3492,
+            "lng": 73.5594,
+            "mapTitle":"sindhudurg Fort"
+        }
+    ],
+    "sinhagadFort": [
+        {
+            "id": "9",
+            "image": [
+                "../../assets/images/sinhagad_fort.jpg",
+                "../../assets/images/sinhagad_fort.jpg",
+                "../../assets/images/sinhagad_fort.jpg",
+                "../../assets/images/sinhagad_fort.jpg",
+                "../../assets/images/sinhagad_fort.jpg",
+                "../../assets/images/sinhagad_fort.jpg",
+                "../../assets/images/sinhagad_fort.jpg",
+                "../../assets/images/sinhagad_fort.jpg"
+            ],
+            "details": [
+                "Literally meaning ‘The Lion’s Fort’, Sinhagad Fort rises on top of a high, isolated cliff amidst the beautiful Bhuleswar Range of the Sahyadri Ranges. Located at an altitude of 1,350 meters above sea level, this fort was is believed to have been built some 2,000 years ago, and is named after the sage Kaundinya.",
+                "Known for the famous Battle of Sinhagad, this is one of the most popular forts in Maharashtra, and is particularly famous amongst trekking enthusiasts. With a short hike of 2.7 kilometers one way, one gains access to the topmost point of the fort, and the magical vistas surrounding it.",
+                "Sinhagad Fort also plays an important role in the training of cadets at the National Defense Academy. Cadets are often sent here on hikes and run in full battle gear as part of their training."
+            ],
+            "entry_fees":" No entry fee.",
+            "time": "09:00AM to 6:00PM",
+            "location": "Thoptewadi, Pune",
+            "lat": 18.3663,
+            "lng": 73.7559,
+            "mapTitle":"sinhagad Fort"
+        }
+    ],
+    "pratapgadFort": [
+        {
+            "id": "10",
+            "image": [
+                "../../assets/images/pratapgad_fort.jpg",
+                "../../assets/images/pratapgad_fort.jpg",
+                "../../assets/images/pratapgad_fort.jpg",
+                "../../assets/images/pratapgad_fort.jpg",
+                "../../assets/images/pratapgad_fort.jpg",
+                "../../assets/images/pratapgad_fort.jpg",
+                "../../assets/images/pratapgad_fort.jpg",
+                "../../assets/images/pratapgad_fort.jpg"
+            ],
+            "details": [
+                "Literally meaning ‘Fort of Valour’, this fort is significant due to the Battle of Pratapgad that happened here. Rising at 1,080 meters above sea level, this fort overlooks the villages of Kinesvar and Par, and boasts of housing four lakes within the fort complex which often overflow during the monsoon months. The watchtower located beside the main entrance or the Maha Darwaja, gives mesmerizing views of the surrounding sheer cliffs that drop to 250 meters below!"
+            ],
+            "entry_fees":" No entry fee.",
+            "time": "08:00AM to 6:30PM",
+            "location": "Rajpuri",
+            "lat": 18.3663,
+            "lng": 73.5806,
+            "mapTitle":"pratapgad Fort"
+        }
+    ],
+    "tornaFort": [
+        {
+            "id": "11",
+            "image": [
+                "../../assets/images/Torna_fort.jpg",
+                "../../assets/images/Torna_fort.jpg",
+                "../../assets/images/Torna_fort.jpg",
+                "../../assets/images/Torna_fort.jpg",
+                "../../assets/images/Torna_fort.jpg",
+                "../../assets/images/Torna_fort.jpg",
+                "../../assets/images/Torna_fort.jpg",
+                "../../assets/images/Torna_fort.jpg"
+            ],
+            "details": [
+                "Also known as Prachandagad, the Torna Fort is a significant fort in the history of Marathas since this was the very first fort captured by Chhatrapati Shivaji at the young age of 16. Located at an elevation of 1,403 meters above sea level, Torna Fort is the highest fort in the Pune district. This is one of the most serene forts in Maharashtra and turns into an extremely popular trekking haunt post monsoons.",
+                "A proper campsite has been created here due to the increase in the number of trekkers. As an alternative, one can even decide in the Menghai Temple inside the fort. During monsoons, the fort gets completely enveloped by clouds and it gets a little tricky to explore the fort properly due to poor visibility."
+            ],
+            "entry_fees":" No entry fee.",
+            "time": "Open 24 hours.",
+            "location": "Charhat Wadi, Pune",
+            "lat": 18.2769,
+            "lng": 73.6219,
+            "mapTitle":"torna Fort"
+        }
+    ],
+    "kandharFort": [
+        {
+            "id": "12",
+            "image": [
+                "../../assets/images/kandhar_fort.png",
+                "../../assets/images/kandhar_fort.png",
+                "../../assets/images/kandhar_fort.png",
+                "../../assets/images/kandhar_fort.png",
+                "../../assets/images/kandhar_fort.png",
+                "../../assets/images/kandhar_fort.png",
+                "../../assets/images/kandhar_fort.png",
+                "../../assets/images/kandhar_fort.png"
+            ],
+            "details": [
+                "Located in the town of Kandhar in Nanded District of Maharashtra, what once used to be a place of immense significance, is now mostly in ruins. With a moat surrounding it filled with water, the Kandhar Fort is located on the banks of the Manya River, surrounded by such lush green mountains that a trip to the fort makes it worth a visit.",
+                "Apart from the surrounding natural beauty, there are a few spots in the fort that are extremely beautiful including the Sheesh Mahal and the Ambar Khana. The Lal Mahal and the Darbar Mahal with their surrounding gardens ruins are equally beautiful sites to visit, reminding one of the royal ways of life of its erstwhile rulers."
+            ],
+            "entry_fees":" No entry fee.",
+            "time": "09:00AM to 5:00PM",
+            "location": "Nanded.",
+            "lat": 18.8747,
+            "lng": 77.2014,
+            "mapTitle":"kandhar Fort"
+        }
+    ],
+    "rajmachiFort": [
+        {
+            "id": "13",
+            "image": [
+                "../../assets/images/Rajmachi_Fort.png",
+                "../../assets/images/Rajmachi_Fort.png",
+                "../../assets/images/Rajmachi_Fort.png",
+                "../../assets/images/Rajmachi_Fort.png",
+                "../../assets/images/Rajmachi_Fort.png",
+                "../../assets/images/Rajmachi_Fort.png",
+                "../../assets/images/Rajmachi_Fort.png",
+                "../../assets/images/Rajmachi_Fort.png"
+            ],
+            "details": [
+                "A massive fort consisting of two smaller fortresses or Balekilla, this is one of the many forts situated deep within the mesmerizing landscapes of the Sahyadri Mountains. Located near the small village of Udhewadi- which consists of just 22 homes- fortresses of the Rajmachi Fort are called the Shriwardhan Ballekilla and the Manaranjan Balekilla.",
+                "These twin fortresses are separated by a wide machi, meaning plateau, making this fort even more majestic. Declared a protected monument by the Government of Maharashtra, this fort was strategically vital in the First Anglo- Maratha War.",
+                "From this fort, one can easily spot the Bor Ghat, an important trade route between the cities of Mumbai and Pune. Hanging in midair, on top of the Shrivardhan Peak at 826 meters above sea level, the view of the Konkan region from here is breathtaking. The only way to reach this fort is by foot, either from the Udhewadi village or the Kondivade village near Karjat. You can also go on a trek to Rajmachi Fort."
+            ],
+            "entry_fees":" No entry fee.",
+            "time": "09:00AM to 6:00PM",
+            "location": "Rajmachi",
+            "lat": 17.3197,
+            "lng": 74.2348,
+            "mapTitle":"rajmachi Fort"
+        }
+    ],
+    "tikonaFort": [
+        {
+            "id": "14",
+            "image": [
+                "../../assets/images/tikona_fort.jpg",
+                "../../assets/images/tikona_fort.jpg",
+                "../../assets/images/tikona_fort.jpg",
+                "../../assets/images/tikona_fort.jpg",
+                "../../assets/images/tikona_fort.jpg",
+                "../../assets/images/tikona_fort.jpg",
+                "../../assets/images/tikona_fort.jpg",
+                "../../assets/images/tikona_fort.jpg"
+            ],
+            "details": [
+                "Located near Kamshet, on top of a pyramidal hill, Tikona Fort is one of the best forts in Maharashtra and is a popular destination with the beautiful Pawna Lake situated at its summit. The Trimbakeshwar Mahadev Temple, Satvahan Caves, Bedse Caves and the seven water tanks are some of the most popular destinations located in close proximity to the fort.",
+                "From the top of the fort, one can get spectacular views of the Pawna Dam and nearby forts like Visapur Fort, Lohagad Fort, and the Tung Fort. The trek to the fort is very short and easy, but the steps leading to the entrance are so narrow that no more than one person can stand at one time.",
+                "For an adventurous experience, one can plan to spend the night in the caves near the fort. Also known as Vitangad, the Tikona Fort trek is the ideal weekend getaway for all nature and photography enthusiasts because of the stunning views it offers."
+            ],
+            "entry_fees":" No entry fee.",
+            "time": "Open 24 hours.",
+            "location": "Lonavla",
+            "lat": 18.6318,
+            "lng": 73.5128,
+            "mapTitle":"tikona Fort"
+        }
+    ],
+    "vasotaFort": [
+        {
+            "id": "15",
+            "image": [
+                "../../assets/images/vasota_fort.png",
+                "../../assets/images/vasota_fort.png",
+                "../../assets/images/vasota_fort.png",
+                "../../assets/images/vasota_fort.png",
+                "../../assets/images/vasota_fort.png",
+                "../../assets/images/vasota_fort.png",
+                "../../assets/images/vasota_fort.png",
+                "../../assets/images/vasota_fort.png"
+            ],
+            "details": [
+                "Located in Satara district, Vasota Fort is also known as Vyaghrapada and was famously protected by Ramabai Telin, the wife of Pant Pratinidhi. Now mostly in ruins, the fort offers stunning vistas of the nearby areas, especially the Shivsagar Lake, on the banks of which this fort is situated.",
+                "Also a very popular trekking destination, this fort is seated deep within the lush valleys and forests of the Koyna Wildlife Sanctuary. Surrounded by water on three sides, the fort is famous for its traditional Maharashtrian architectural style and consists of three parts- Old Fort, New Fort and Nageshwar. Right beside the fort is the Babu Kada which is a steep U shaped cliff, offering uninterrupted views of the Old Fort.",
+                "From the top of the fort, one can view the backwaters of the Shivsagar Dam and the entire Kas Mahabaleshwar mountain range. An ideal destination for adventure lovers, Vasota Fort offers activities like rock climbing and mountaineering."
+            ],
+            "entry_fees":" No entry fee.",
+            "time": "Open 24 hours.",
+            "location": "Satara",
+            "lat": 17.6633,
+            "lng": 73.6970,
+            "mapTitle":" vasota Fort"
+        }
+    ]
+}

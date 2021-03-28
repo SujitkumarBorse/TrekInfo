@@ -1,0 +1,81 @@
+<div class="container">
+
+    <h3 class="text-center p-3 animate__animated animate__zoomIn">Trekking Equipments</h3>
+
+    <div class="row">
+        <div class="col-md-4">
+            <img class="rounded border mb-2 border-dark img-fluid" src="../../assets/images/Trek_equipments/img_2.jpg"
+                alt="Equipment Image" usemap="#img_2">
+
+            <map name="img_2">
+                <area shape="rect" title="buy kitbag" coords="0,0,70,43" target="_blank"
+                    href="https://www.amazon.in/American-Tourister-40X-01-009/dp/B00FRCNSZ0/ref=asc_df_B00FRCNSZ0/?tag=googleshopdes-21&linkCode=df0&hvadid=396988694817&hvpos=&hvnetw=g&hvrand=8554025503919809719&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062089&hvtargid=pla-363672500388&psc=1&ext_vrnc=hi">
+
+                <area shape="rect" coords="75,2,205,43" title="buy sleeping bag and it's liner" target="_blank"
+                    href="https://www.amazon.in/s?k=sleeping+bag+and+sleeping+bag+liner">
+
+                <area shape="rect" coords="210,2,347,186" title="buy trekking kit" target="_blank"
+                    href="https://www.amazon.in/s?k=trekking+kit+for+men+full&crid=8YX5C8SQLPHG&sprefix=trekking+kit%2Caps%2C450&ref=nb_sb_ss_i_3_12">
+            </map>
+        </div>
+        <div class="col-md-4">
+            <img class="rounded border mb-2 border-dark img-fluid" src="../../assets/images/Trek_equipments/img_1.jpg"
+                alt="Equipment Image">
+        </div>
+        <div class="col-md-4">
+            <img class="rounded border mb-2 border-dark img-fluid" src="../../assets/images/Trek_equipments/img_3.jpeg"
+                alt="Equipment Image">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        
+        <div class="container">
+            <p>Trekking is simply walking in the hills or the mountains – be it for a day or weeks or more. Certain
+                basic trekking equipment are essential while you're trekking to any parts of the trekking destinations.
+                The items may differ from the area to area and on season to season. The following are the list of the
+                equipment that we suggest you for your trekking in Nepal Himalaya.
+            </p>
+        </div>
+
+        <br>
+        
+        <div class="col-md-6 col-sm-12 col-12 mb-3">
+            <ul class="list-group">
+                <li class="list-group-item bg-light">
+                    <h5 class="text-center font-weight-bold animate__animated animate__zoomIn"> Clothing</h5>
+                </li>
+                <li class="list-group-item bg" *ngFor="let data of equipment?.clothing">
+                    <!-- <span class="badge badge-primary badge-pill"> {{data.id}} </span> -->
+                    <img class="img-fluid rounded" [src]='data.img' alt="pic" width="50px" height="50px">
+                    {{data.title}}
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div class="col-md-6 col-sm-12 col-12 mb-3">
+            <ul class="list-group">
+                <li class="list-group-item bg-light">
+                    <h5 class="text-center font-weight-bold animate__animated animate__zoomIn"> Accessories </h5>
+                </li>
+                <li class="list-group-item bg" *ngFor="let data of equipment?.accessories">
+                    <!-- <span class="badge badge-primary badge-pill"> {{data.id}} </span> -->
+                    <img class="img-fluid rounded" [src]='data.img' alt="pic" width="50px" height="50px">
+                    {{data.title}}
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="container">
+            <h5 class="font-weight-bold pb-2">Details of Trekking Equipment's :</h5>
+            <p *ngFor="let data of equipment?.equipment_details">
+                <strong>{{ data.title }}:</strong>{{ data.details }}
+            </p>
+        </div>
+    </div>
+
+</div>

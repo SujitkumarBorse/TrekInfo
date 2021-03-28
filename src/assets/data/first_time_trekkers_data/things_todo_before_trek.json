@@ -1,0 +1,34 @@
+{
+    "todo_befor_trek": [
+        {
+            "id": "1",
+            "title":"Carrying too many clothes",
+            "details": "Extra t-shirts, pants, warm layers, towels, socks, undergarments… Sounds familiar? We tend to overpack during our treks because of the what-if scenarios.",
+            "solution":"Carry fewer clothes than you need as the extra clothes never come in handy and are always a burden."
+        },
+        {
+            "id": "2",
+            "title":"Taking inappropriate wear",
+            "details": "People often trek in jeans as they believe that it is thick so it will keep them warm. The reality is that Jeans are perhaps the most uncomfortable clothes on a trek. They are tight, heavy and terribly difficult to get in and out of. Not just this, it is extremely difficult to dry them if they get wet during the trek.",
+            "solution":"Carry layers. Always. No matter what anyone else tells you. Carry 3 or 5 layers depending on the month you’re trekking in. Keep every layer light."
+        },
+        {
+            "id": "3",
+            "title":"Packing too much of toiletries",
+            "details": "Trekkers often carry shampoo, conditioner, face wash, sunscreen, moisturizer, face cream, deodorant, perfume, toothbrush, toothpaste which are absolutely unnecessary.",
+            "solution":"Get the tiniest medicine bottle. Squeeze some liquid soap in it from home. This is enough soap to last you the entire trek."
+        },
+        {
+            "id": "4",
+            "title":"Avoiding a trekking pole ",
+            "details": "Many trekkers avoid using a trekking pole for some reason but it is not a wise decision as you will be needing it in during a rough patch in the trek.",
+            "solution":"Well, use a trekking pole. And use it correctly. It maintains your stability and balance. So, don't shy away from using a trekking pole!"
+        },
+        {
+            "id": "5",
+            "title":"Buying the wrong backpack",
+            "details": "When first-time trekkers buy backpacks, they go too much by what the sales guy tells them. They don’t do enough research themselves before heading over to the store.",
+            "solution":"When you are buying the trekking backpack for the first time then you do proper research as which is the bag that is much needed for your kind of trek."
+        }
+    ]
+}

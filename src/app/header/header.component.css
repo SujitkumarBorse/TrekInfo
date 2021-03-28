@@ -1,0 +1,19 @@
+/* 
+.bg{
+    background-color: #a2d5f7;
+    background: rgb(172, 71, 197);
+    background: linear-gradient(90deg, rgba(190, 25, 231, 0.524) 14%, rgba(90, 178, 241, 0.726) 31%, rgba(38, 38, 223, 0.547) 57%, rgba(5, 213, 255, 0.331) 98%);
+    color: white;
+    opacity: 0.6;
+} */
+.bg{
+background-color: rgba(0, 0, 0, 0.8);
+}
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    /* font-weight: bold; */
+    color: orange !important;
+}

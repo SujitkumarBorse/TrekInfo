@@ -1,0 +1,28 @@
+.img-fluid {
+    transition: transform .2s;
+}
+
+.img-fluid:hover {
+    transform: scale(1.2);
+}
+
+.cursor:hover {
+    cursor: pointer;
+}
+
+agm-map {
+    height: 300px;
+}
+
+.bg:hover {
+    background-color: rgba(103, 255, 43, 0.137) !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .overflow {
+        white-space: nowrap; 
+        width: 180px; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+  }

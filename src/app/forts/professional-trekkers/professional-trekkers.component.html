@@ -1,0 +1,27 @@
+<div class="container">
+
+    <h3 class="text-center p-3 animate__animated animate__zoomIn"> Trekking Training Tips </h3>
+
+    <div class="row">
+        <div class="container">
+            <p>Treks can vary enormously in terms of daily distances, ascent, descent and altitude, but all require specific preparation to ensure you get the maximum from your trekking trip. Our 10 trekking training tips — including advice on trekking equipment, nutrition, hydration and specific trekking training — will help you prepare correctly for your trek so that you're not left nursing blisters and sore legs after the first day.</p>
+            <p>When you go trekking, regardless of whether you are a beginner or an expert, you shouldn’t take nature for granted. Mo matter what, always prioritise your safety. It’s important to have your wits at all times while trekking, but there are measures you can take before you embark on your journey. One way to do so is purchasing a trek insurance policy to protect yourself from unforeseen circumstances such as an accident or loss of essentials such as your debit or credit cards.</p>
+        </div>
+        
+        <br>
+
+        <div class="col-md-12 col-sm-12 col-12 mb-3">
+            <ul class="list-group">
+                <li class="list-group-item bg-light">
+                    <h5 class="text-center font-weight-bold animate__animated animate__zoomIn"> Training Tips </h5>
+                </li>
+                <li class="list-group-item" *ngFor="let tips of trekkersTips?.proffesinal_trekkers_tips">
+                    <span class="badge badge-primary badge-pill"> {{tips.id}}</span>
+                    <strong>{{tips.title}} :</strong>
+                   <p>{{tips.details}}</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>

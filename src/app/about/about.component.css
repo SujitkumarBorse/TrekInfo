@@ -1,0 +1,125 @@
+.aboutclass h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.aboutclass p{
+    color: #6c757d;
+}
+img{
+    border: 2px solid black;
+}
+.aboutclass{
+    padding-top: 10px;
+}
+.row{
+    padding-top: 5px;
+}
+
+
+
+@media(min-width : 992px){
+    .aboutclass h1{
+          font-weight: bold;
+          font-size: 45px;
+    }
+    img{
+          margin-top: 10px;
+    }
+}
+
+@media(min-width : 768px) and (max-width : 991px){
+    .aboutclass h1{
+          font-weight: bold;
+          font-size: 41px;
+    }
+    img{
+          margin-top: 110px;
+    }
+
+}
+
+@media(min-width : 575px) and (max-width : 767px){
+    
+    .aboutclass h1{
+          font-weight: bold;
+          font-size: 38px;
+    }
+
+}  
+@media(min-width : 480px) and (max-width : 574px){
+    .aboutclass h1{
+          font-weight: bold;
+          font-size: 35px;
+    }
+   
+} 
+
+@media(max-width:497px){
+    .aboutclass h1{
+          font-weight: bold;
+          font-size: 32px;
+    }
+}
+
+
+
+
+
+.ourteam{
+    padding: 5px 0px 0px;
+}
+.ourteam h3{
+     font-size: 30px;
+     font-weight: bold;
+}
+.teamsetting{
+    margin-top: 5px;
+}
+
+
+@media(min-width : 768px) and (max-width : 991px){
+   
+    .ourteam h1{
+          font-size: 40px;
+          font-weight: bold;
+   }  
+   .ourteam img{
+         height: 200px;
+         width: 200px;
+   }
+}
+
+@media(min-width : 575px) and (max-width : 767px){
+    
+   
+    .ourteam h1{
+          font-size: 37px;
+          font-weight: bold;
+   }  
+   .ourteam img{
+         height: 160px;
+         width: 160px;
+   }
+}  
+@media(min-width : 480px) and (max-width : 574px){
+    
+    .ourteam h1{
+          font-size: 30px;
+          font-weight: bold;
+   }  
+   .ourteam img{
+         height: 150px;
+         width: 150px;
+   }
+} 
+
+@media(max-width:497px){
+    .ourteam h1{
+          font-size: 24px;
+          font-weight: bold;
+   }  
+   .ourteam img{
+         height: 150px;
+         width: 150px;
+   }
+}
